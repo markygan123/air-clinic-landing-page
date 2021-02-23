@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;800&display=swap');
+
+/* CSS Reset */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Custom Styles */
+
+body {
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    color: #777;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+}
+
+.content-wrapper {
+    width: 1040px;
+    position: relative;
+}
+
+/* Header Styles */
+
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0;
+}
+
+#header .header-logo {
+    width: 280px;
+    height: 75px;
+}
+
+
+/* Services Styles */
+
+#services {
+    width: 100%;
+    height: 569px;
+    padding: 50px 0;
+}
+
+#services .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#services h2 {
+    font-weight: 800;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+#services img {
+    width: 490px;
+    height: 237.64px;
+    border: 2px solid #cecece;
+    border-radius: 5px;
+}
+
+.row-left {
+    line-height: 1.75;
+    margin-right: 25px;
+}
+
+.row-left a {
+    color: #2EBDED;
+}
+
+.service-two {
+    margin-top: 15px;
+}
+
+
+/* Divider Styles */
+
+#divider {
+    position: absolute;
+    left: -155px;
+    background: #2EBDED;
+    width: 100vw; 
+    text-align: center;
+}
+
+#divider .container {
+    padding: 50px;
+}
+
+#divider .container h2 {
+    font-weight: 800;
+    font-size: 35px;
+    color: #fff;
+}
+
+/* Services Buttons Styles */
+
+#services-buttons {
+    margin-top: 200px;
+    margin-bottom: 90px;
+}
+
+#services-buttons .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+    /* height: 486px; */
+}
+
+#services-buttons .button-container {
+    border: 2px solid #cecece;
+    border-radius: 5px;
+    padding: 15px 20px;
+    text-align: center;    
+    background: #f5f5f5;
+}
+
+.button-container > * {
+    margin-bottom: 10px;
+}
+
+.button-container img {
+    width: 450px;
+    margin-bottom: 20px;
+}
+
+.button-container h3 {
+    font-weight: 800;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.button-container a {
+    color: #2A4799;
+    text-decoration: none;
+    border-bottom: 2px solid #2A4799;
+}
+
+.button-container a:hover {
+    border: none;
+}
+
+
+/* Footer Styles */
+
+.footer {
+    background: #2A4799;
+    position: absolute;
+    left: -155px;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 60px;
+    padding-bottom: 25px;
+}
+
+.top-footer-container {
+    width: 1040px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.quick-links {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.quick-links h3{
+    font-weight: 700; 
+    font-size: 20px; 
+    color: #fff;  
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+.quick-links ul li {
+    margin-bottom: 10px;
+}
+
+.quick-links ul li:hover {
+    text-decoration: underline;
+}
+
+.quick-links a {
+    text-decoration: none;
+    font-size: 15px;
+    color: #2EBDED;
+}
+
+.footer-logo img {
+    height: 140px;
+}
+
+.copyright {
+    color: #fff;
+    font-size: 12px;
+}
+
+.copyright a {
+    text-decoration: none;
+    color: #2EBDED;
+}
+
+.copyright a:hover {
+    text-decoration: underline;
+}
