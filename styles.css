@@ -203,7 +203,7 @@ body {
 }
 
 .top-footer-container {
-    width: 1040px;
+    width: 1920px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-content: center;
