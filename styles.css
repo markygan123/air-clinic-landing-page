@@ -151,8 +151,7 @@ body {
 }
 
 #divider .container h2 {
-	font-weight: bold;
-	font: inherit;
+	font-weight: 800;
 	color: #fff;
 	font-size: 245%;
 }
