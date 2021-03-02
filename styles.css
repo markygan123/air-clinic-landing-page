@@ -297,7 +297,7 @@ body {
 }
 
 .copyright p {	
-	margin-left: 780px;
+	margin-left: 815px;
 }
 
 /* Media Queries */
@@ -531,4 +531,350 @@ body {
 	}
 }
 
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+ 
+	.content-wrapper,
+	#divider,
+	#services-buttons,
+	.footer {
+		width: 1024px;
+	}
+
+	/* Header Styles */
+
+	#header .container {
+		padding: 50px 0px 90px 0;
+	}
+
+	#header .header-logo {
+		left: 400px;
+	}
+
+	#header .header-logo img {
+		width: 80%;
+	}
+
+	/* Services */	
+
+	#services {
+		margin-bottom: 100px;
+	}
+
+	.cols {
+		flex-direction: row;
+		width: 87%;
+		margin: 0 auto;
+	}
+
+	.col-left {
+		width: 147%;
+		margin-left: 5px;
+		margin-bottom: 20px;
+	}
+
+	.col-right {
+		margin-top: -65px;
+		margin-left: -20px;
+		width: 140%;
+	}
+
+	.col-right img {
+		max-width: 100%;
+	}
+
+
+	/* Divider */
+
+	#divider {
+		top: 795px;
+	}
+
+	#divider .container h2 {
+		font-size: 200%;
+	}
+
+
+
+
+	/* Services */
+
+	#services-buttons {
+		margin-top: 290px;
+	}
+
+	#services-buttons .container {
+		/* display: flex;
+		flex-direction: column;
+		margin: 0 auto; */
+	
+		grid-gap: 177px;
+		width: 72%;
+		margin-left: 146px;
+	}
+
+	.button-container {
+		width: 152%;
+		margin-left: -73px;
+	}
+
+	.button-container img {
+		max-width: 100%;
+	}
+
+
+	/* Footer */
+
+	.footer-logo {
+		left: 210px;
+		/* width: 70%; */
+	}
+
+	.footer-logo img {
+		height: 128px;
+		margin-bottom: 50px;
+	}
+
+	.copyright {
+		font-size: 13px;
+		width: 90%;
+		text-align: center;
+	}
+
+	.copyright p {
+		margin-left: 120px;
+		line-height: 1.5;
+	}
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+ 
+	.content-wrapper,
+	#divider,
+	#services-buttons,
+	.footer {
+		width: 1200px;
+	}
+
+	/* Header Styles */
+
+	#header .container {
+		padding: 50px 0px 90px 0;
+	}
+
+	#header .header-logo {
+		left: 500px;
+	}
+
+	#header .header-logo img {
+		width: 80%;
+	}
+
+	/* Services */	
+
+	#services {
+		margin-bottom: 100px;
+	}
+
+	.cols {
+		flex-direction: row;
+		width: 87%;
+		margin: 0 auto;
+	}
+
+	.col-left {
+		width: 147%;
+		margin-left: 5px;
+		margin-bottom: 20px;
+	}
+
+	.col-right {
+		margin-top: -16px;
+		margin-left: -20px;
+		width: 140%;
+	}
+
+	.col-right img {
+		max-width: 100%;
+	}
+
+
+	/* Divider */
+
+	#divider {
+		top: 795px;
+	}
+
+	#divider .container h2 {
+		font-size: 250%;
+	}
+
+
+
+
+	/* Services */
+
+	#services-buttons {
+		margin-top: 290px;
+	}
+
+	#services-buttons .container {
+		/* display: flex;
+		flex-direction: column;
+		margin: 0 auto; */
+	
+		grid-gap: 210px;
+		width: 72%;
+		margin-left: 153px;
+	}
+
+	.button-container {
+		width: 152%;
+		margin-left: -73px;
+	}
+
+	.button-container img {
+		max-width: 100%;
+	}
+
+
+	/* Footer */
+
+	.footer-logo {
+		left: 300px;
+		/* width: 70%; */
+	}
+
+	.footer-logo img {
+		height: 128px;
+		margin-bottom: 50px;
+	}
+
+	.copyright {
+		font-size: 13px;
+		width: 90%;
+		text-align: center;
+	}
+
+	.copyright p {
+		margin-left: 150px;
+		line-height: 1.5;
+	}
+
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+ 
+	.content-wrapper,
+	#divider,
+	#services-buttons,
+	.footer {
+		width: 1024px;
+	}
+
+	/* Header Styles */
+
+	#header .container {
+		padding: 50px 0px 90px 0;
+	}
+
+	#header .header-logo {
+		left: 400px;
+	}
+
+	#header .header-logo img {
+		width: 80%;
+	}
+
+	/* Services */	
+
+	#services {
+		margin-bottom: 100px;
+	}
+
+	.cols {
+		flex-direction: row;
+		width: 87%;
+		margin: 0 auto;
+	}
+
+	.col-left {
+		width: 147%;
+		margin-left: 5px;
+		margin-bottom: 20px;
+	}
+
+	.col-right {
+		margin-top: -65px;
+		margin-left: -20px;
+		width: 140%;
+	}
+
+	.col-right img {
+		max-width: 100%;
+	}
+
+
+	/* Divider */
+
+	#divider {
+		top: 795px;
+	}
+
+	#divider .container h2 {
+		font-size: 200%;
+	}
+
+
+
+
+	/* Services */
+
+	#services-buttons {
+		margin-top: 290px;
+	}
+
+	#services-buttons .container {
+		/* display: flex;
+		flex-direction: column;
+		margin: 0 auto; */
+	
+		grid-gap: 177px;
+		width: 72%;
+		margin-left: 146px;
+	}
+
+	.button-container {
+		width: 152%;
+		margin-left: -73px;
+	}
+
+	.button-container img {
+		max-width: 100%;
+	}
+
+
+	/* Footer */
+
+	.footer-logo {
+		left: 210px;
+		/* width: 70%; */
+	}
+
+	.footer-logo img {
+		height: 128px;
+		margin-bottom: 50px;
+	}
+
+	.copyright {
+		font-size: 13px;
+		width: 90%;
+		text-align: center;
+	}
+
+	.copyright p {
+		margin-left: 120px;
+		line-height: 1.5;
+	}
+}
 
